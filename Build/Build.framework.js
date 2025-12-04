@@ -9966,7 +9966,7 @@ var ASM_CONSTS = {
       // full 4GB Wasm memories, the size will wrap back to 0 bytes in Wasm side
       // for any code that deals with heap sizes, which would require special
       // casing all heap size related code to treat 0 specially.
-      return 2147418112;
+      return 1073741824;
     }
   function _emscripten_get_heap_max() {
       return getHeapMax();
